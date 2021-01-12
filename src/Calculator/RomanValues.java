@@ -262,7 +262,7 @@ public class RomanValues extends Validate{
         double aD = Double.parseDouble(String.valueOf(a));
         double bD = Double.parseDouble(String.valueOf(b));
 
-        double del = Math.ceil(aD / bD);
+        double del = Math.floor(aD / bD);
 
         switch ((int) del) {
             case 1:
